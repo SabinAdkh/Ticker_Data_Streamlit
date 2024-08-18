@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-proj-linkedin"
+version = "0.1.0"
+description = "Python project packages"
+authors = ["SabinAdkh <adhikarisabin258@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.37.1"
+pandas = "^2.2.2"
+requests = "^2.32.3"
+notebook = "^7.2.1"
+watchdog = "^4.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
